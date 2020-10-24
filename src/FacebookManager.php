@@ -19,7 +19,7 @@ use Illuminate\Contracts\Config\Repository;
 
 class FacebookManager extends AbstractManager
 {
-    protected FacebookFactory $factory;
+    protected $factory;
 
     public function __construct(Repository $config, FacebookFactory $factory)
     {
